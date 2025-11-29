@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    background: #bbf7f7;
+   
+}
+header{
+    width: 100%;
+    height: 15%;
+    border:none;
+    padding-top: 30px;
+    background-color: #28d3d3;
+    border-radius: 0px 0px 30px 30px ;
+    
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+    margin-left: 7px;
+}
+.liens{
+    float: right;
+    
+}
+.bar{
+    color: #120fc2ee;
+    text-decoration: none;
+    font-family:Arial, 'Franklin Gothic Medium', 'Arial Narrow',  sans-serif;
+    font-size: larger;
+    margin-right: 7px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 7px;
+}
+.bar:hover{
+    background-color: #84b5f5;
+
+}
+
+section{
+    width: 100%;
+    height: auto;
+   
+}
+#profile{
+    float: right;
+    margin: -220px 150px 0px 0px ;
+}
+.intro{
+    margin: 100px 0px 0px 100px;
+    width: 25%;
+    height: auto;
+   
+}
+h1{
+    font-family: arial;
+    color: #5252cfd7;
+    animation-name: titre;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes titre {
+    0%{
+    color: #060655d7;
+    margin-left: 50px;
+    
+        
+    }
+     25%{
+    color: #354fc4d7;
+        
+    }
+     50%{
+    color: #751ca8d7;
+        
+    }
+     75%{
+    color: #3183a3d7;
+        
+    }
+     100%{
+    color: #30c486d7;
+    margin-left: 100x;
+
+        
+    }
+}
+p{
+    font-family: arial;
+    font-size: 15px;
+
+}
+label{
+    font-size: bold;
+    color: red;
+}
+#tet{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: arial;
+    
+    
+
+}
+#sk{
+    float: right;
+
+    margin-top: -500;
+    border-radius: 50px;
+}
+#skills{
+    margin-left: 100px;
+}
+h2{
+    color: #120368;
+}
+li{
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(13, 66, 73);
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #28d3d3 ;
+    padding-top: 5px;
+    border-radius: 30px 30px 0px 0px;
+    
+
+}
+footer h2{
+    margin-left: 50px;
+}
+.acontact{
+    width: 5%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 50px;
+}
